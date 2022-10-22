@@ -1,0 +1,20 @@
+.hero {
+    position: relative;
+    width: 1900px;
+    height: 910px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.enterinfo label, .enterinfo input {
+    padding: 10px;
+    margin: 20px;
+    font-family: sans-serif;
+}
+
+.enterinfo input {
+    width: 240px;
+}
+
