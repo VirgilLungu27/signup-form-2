@@ -8,13 +8,41 @@
     align-items: center;
 }
 
-.enterinfo label, .enterinfo input {
-    padding: 10px;
-    margin: 20px;
+.enterinfo, .submitinfo {
     font-family: sans-serif;
+}
+
+.enterinfo input {
+    display: grid;
+    padding: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.enterinfo label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 15px;
 }
 
 .enterinfo input {
     width: 240px;
 }
 
+.submitinfo {
+    font-size: 13px;
+    display: grid;
+}
+
+.submitinfo > button {
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    height: 40px;
+    font-size: 16px;
+}
+
+.submitinfo > button:hover {
+    cursor: pointer;
+    background-color: rgba(240, 248, 255, 0.705);
+}
